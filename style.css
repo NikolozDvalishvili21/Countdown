@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 737px;
+    opacity: 0.6;
+}
+
+.pic {
+    background-image: url(Picture/wp8827173.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 737px;
+    display: flex;
+    justify-content: center;
+}
+
+.deadline-format {
+    text-align: center;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(237, 154, 0);
+    z-index: 2;
+}
+
+.countdown {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 320px;
+    font-size: 25px;
+    cursor: default;
+}
